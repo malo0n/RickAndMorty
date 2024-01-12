@@ -34,7 +34,13 @@ header{
       -webkit-text-stroke: 1px #00000073;
       margin-top: 150px;
       font-size: 8vw;
-      width: 50%;
+      width: 70%;
+    }
+  }
+  @media (min-width:440px) {
+    -webkit-text-stroke: 1px #000000d8;
+    span{
+      margin-top: 90px;
     }
   }
   @media(min-width:769px) {

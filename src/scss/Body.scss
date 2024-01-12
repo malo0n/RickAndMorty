@@ -12,6 +12,7 @@
   
 }
 .main{
+  padding: 35px;
   display: grid;
   grid-template-columns: 50% 50%;
   background-color: rgb(0, 0, 0);
@@ -19,7 +20,7 @@
     font-size: 6vw;
     img{
       align-self: center;
-      height: 35vw;
+      height: 32vw;
     }
     .character{
       flex-direction: column;
@@ -43,7 +44,7 @@
   }
   img{
     border-radius: 10px;
-    margin: 10px;
+    margin: 25px;
     justify-self: center;
     display: flex;
 
