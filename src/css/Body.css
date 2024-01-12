@@ -15,7 +15,7 @@
   padding: 35px;
   display: grid;
   grid-template-columns: 50% 50%;
-  background-color: rgb(0, 0, 0);
+  background-color: #252525;
 }
 @media (min-width: 320px) {
   .main {
@@ -34,6 +34,7 @@
 }
 @media (min-width: 769px) {
   .main {
+    background-color: #000;
     font-size: 5vw;
   }
   .main img {
