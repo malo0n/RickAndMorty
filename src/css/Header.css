@@ -3,7 +3,6 @@
   padding: 0;
   outline: 0;
   font-family: RickAndMorty;
-  font-size: 50px;
   scroll-behavior: smooth;
 }
 
@@ -21,8 +20,34 @@ header {
   background-size: cover;
   background-position: center;
   color: #03c8d5;
-  -webkit-text-stroke: 1px #000;
   text-shadow: 0 0 7px #0fa, 0 0 10px #0fa;
+}
+header span {
+  text-align: center;
+}
+@media (min-width: 320px) {
+  header {
+    background-image: url(../img/mobile-backg.jpg);
+    height: 100vh;
+    align-items: start;
+  }
+  header span {
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.4509803922);
+    margin-top: 150px;
+    font-size: 8vw;
+    width: 50%;
+  }
+}
+@media (min-width: 769px) {
+  header {
+    background-image: url(../img/backg.jpeg);
+  }
+  header span {
+    margin-top: 159px;
+    -webkit-text-stroke: 1px #000;
+    width: 90%;
+    font-size: 5vw;
+  }
 }
 
 /*# sourceMappingURL=Header.css.map */

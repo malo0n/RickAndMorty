@@ -1,14 +1,10 @@
 import './css/Header.css'
 import 'animate.css'
 function Header() {
-
-
   return (
-    <>
-        <header className='animate__animated animate__fadeIn'>
-          Welcome to Rick and Morty characters library!
-        </header>
-    </>
+    <header className='header animate__animated animate__fadeIn'>
+      <span className='header_title'>Welcome to Rick and Morty characters library!</span>    
+    </header>
   )
 }
 
